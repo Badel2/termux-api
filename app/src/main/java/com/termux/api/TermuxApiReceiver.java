@@ -99,6 +99,9 @@ public class TermuxApiReceiver extends BroadcastReceiver {
             case "TextToSpeech":
                 TextToSpeechAPI.onReceive(context, intent);
                 break;
+            case "TextWidget":
+                TextWidgetAPI.onReceive(context, intent);
+                break;
             case "Toast":
                 ToastAPI.onReceive(context, intent);
                 break;
